@@ -4,15 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ISAAC QRCODE PAGE</title>
-<style>
+<style type="text/css">
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(186, 223, 255);
+  font-family:'Outfit', sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* vh stands for viewpoint height*/
+  display: flex;
+ 
+}
+
+.house { 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.scan{
+     width: 350px;
+     padding: 16px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 20px;
+     box-shadow: 2px 3px 7px 2px rgba(rgb(0, 0, 0), rgb(3, 49, 3), rgb(33, 33, 117), alpha);
+     text-align: center;
+
+     
+}
+
+
+
+.writeup {
+  padding: 16px 10px;
+}
+.writeup h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 12px;
+}
+
+.writeup p{
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(217, 12%, 35%);
+}
 
 
 </style>
 
 </head>
 <body>
+  <div class="house">
+    <div class="scan">
+      <p ><img src="qr-code-component-main/qr-code-component-main/images/image-qr-code.png" width="100%"; border-radius="12px"> </p>
+    
+      <div class="writeup"><h2 >Improve your front-end skill by building projects</h2>
+  
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skill to the next level</p>
+      </div>
+    </div>
+  </div>
 
     
 </body>
-
 </html>
+
